@@ -8,3 +8,4 @@ To trace (check also tracing options)
 ```bash
 python -m trace --trace viet.py
 ```
+Check unittests
