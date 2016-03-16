@@ -1,6 +1,10 @@
 import collections
+import sys
+import getopt
 
-with open ("NASA_access_log_Aug95", "r") as myfile:
+filepath = sys.argv[1]
+
+with open (filepath[0], "r") as myfile:
     data=myfile.readlines()
 
 def make_address_list(data):
