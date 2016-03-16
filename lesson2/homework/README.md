@@ -22,3 +22,16 @@ After parsing with logparser.py the result is
 ```
 [('edams.ksc.nasa.gov', 6530), ('piweba4y.prodigy.com', 4846), ('163.206.89.4', 4791), ('piweba5y.prodigy.com', 4607), ('piweba3y.prodigy.com', 4416), ('www-d1.proxy.aol.com', 3889), ('www-b2.proxy.aol.com', 3534), ('www-b3.proxy.aol.com', 3463), ('www-c5.proxy.aol.com', 3423), ('www-b5.proxy.aol.com', 3411)]
 ```
+
+# Test
+test_dicts.py checks if make_dicts function outputs a dictionary
+```bash
+$ python test_dicts.py -v
+{1: u'a', 2: u'b', 3: u'c', 4: u'd', 5: u'e', 6: None, 7: None, 8: None, 9: None}
+test_creates_dict (__main__.TestMakeDicts) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+```
