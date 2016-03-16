@@ -4,7 +4,7 @@ import getopt
 
 filepath = sys.argv[1]
 
-with open (filepath[0], "r") as myfile:
+with open (filepath, "r") as myfile:
     data=myfile.readlines()
 
 def make_address_list(data):
