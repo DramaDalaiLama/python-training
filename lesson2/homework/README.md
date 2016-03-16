@@ -18,8 +18,14 @@ uplherc.upl.com - - [01/Aug/1995:00:00:14 -0400] "GET /images/NASA-logosmall.gif
 kgtyk4.kj.yamagata-u.ac.jp - - [01/Aug/1995:00:00:17 -0400] "GET / HTTP/1.0" 200 7280
 ```
 
-After parsing with logparser.py the result is
+Logparse usage:
+```bash
+python logparser.py pathtofile
 ```
+
+After parsing with logparser.py the result is
+```bash
+$ python logparser.py NASA_access_log_Aug95
 [('edams.ksc.nasa.gov', 6530), ('piweba4y.prodigy.com', 4846), ('163.206.89.4', 4791), ('piweba5y.prodigy.com', 4607), ('piweba3y.prodigy.com', 4416), ('www-d1.proxy.aol.com', 3889), ('www-b2.proxy.aol.com', 3534), ('www-b3.proxy.aol.com', 3463), ('www-c5.proxy.aol.com', 3423), ('www-b5.proxy.aol.com', 3411)]
 ```
 
