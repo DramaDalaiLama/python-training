@@ -6,3 +6,5 @@ Something like that, imagination is encouraged.
 
 # Extra
 Using `requests` download Pics from google
+For more fun daemonize it
+The fun part is not to get banned by google
